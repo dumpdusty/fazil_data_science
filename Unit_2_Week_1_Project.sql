@@ -11,11 +11,10 @@ order by 2 desc
 
 --What metro area has the zip code with the largest population? 
 
-
-select metro_city , max(population) as largest_pop
+select metro_city , zip, max(population) as largest_pop
 from public.census_metro_data cmd 
-group by metro_city 
-order by 2 desc 
+group by 1,2
+order by 3 desc 
 
 --Houston
 
