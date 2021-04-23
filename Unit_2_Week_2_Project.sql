@@ -1,4 +1,7 @@
---Unit_2_Week_2_SQL_Project
+--Unit_2_Week_2_SQL_Project 
+
+--I have a problem with understanding the questions. Probably it`s my bad english :( Hope we`ll find a time to discuss it later.
+
 
 --1. Which campaign typically has the highest cost each year?
 
