@@ -74,4 +74,3 @@ from(
 	where ranking_by_proportion = 1
 
 	
-	
