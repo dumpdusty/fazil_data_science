@@ -33,7 +33,7 @@ old_pop<-proj_5 %>%
 
 var<-var.test(young_pop$median_hh_income, old_pop$median_hh_income)
 
-if(var$p.value <.05) {
+if(var$p.value < .05) {
   var=T
 } else { 
   var=F}
@@ -42,8 +42,8 @@ t.test(young_pop$median_hh_income,old_pop$median_hh_income, var.equal=var)
 
 #Question_4: Can you reject the null hypothesis? Why or why not? What does this tell you about your findings?
 
-#Yes, we can reject the Null Hypothesis. 
+#No, we fail to reject the Null Hypothesis. 
 
-#Because the P-value we get (3.344e-05) is much lower than 0.5.
+#Because the P-value we get (3.344e-05) is much lower than 0.5. What`s mean that we have very low chance that 
+#the averages of two samples are different`
 
-#
