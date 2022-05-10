@@ -1,2 +1,2 @@
 # fazil_data_science_bootcamp
-This is my first repository
+There are a few projects in Data Science
